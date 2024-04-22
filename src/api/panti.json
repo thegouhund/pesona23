@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Panti Asuhan Yaumiddin",
+    "district": "Balikpapan Utara",
+    "address": "KM No.24, Karang Joang"
+  },
+  {
+    "name": "Panti Asuhan Al-Firdaus",
+    "district": "Balikpapan Utara",
+    "address": "Gg. Mangga No.13, Karang Joang"
+  },
+  {
+    "name": "Panti Asuhan Aisyiyah",
+    "district": "Balikpapan Tengah",
+    "address": "JI. DR.Sutomo No.47 RT.16 Karang Rejo"
+  },
+  {
+    "name": "Asrama Yatim Mizan Amanah",
+    "district": "Balikpapan Tengah",
+    "address": "Jl. Letjen S. Parman No.45 Gn Sari Ulu"
+  },
+  {
+    "name": "Panti Asuhan Bina Bersama",
+    "district": "Balikpapan Tengah",
+    "address": "JI. D.I.Panjaitan No 27 Gn Sari Guntur"
+  },
+  {
+    "name": "Panti Asuhan Al-Hidayah",
+    "district": "Balikpapan Tengah",
+    "address": "Jl. Bina Raga, RT.31 / RW.No 04, Sumber Rejo"
+  },
+  {
+    "name": "Panti Asuhan Bina Kasih",
+    "district": "Balikpapan Tengah",
+    "address": "JI. M. Sutoyo RT . 01 Gn . Malang"
+  },
+  {
+    "name": "Panti Asuhan Tahfidz",
+    "district": "Balikpapan Selatan",
+    "address": "Sepinggan Baru"
+  },
+  {
+    "name": "Panti Asuhan Al-Kahfi",
+    "district": "Balikpapan Selatan",
+    "address": "JI. Pipit III Blok D 3 RT . 10 No. 57"
+  },
+  {
+    "name": "LKSA Al-Furqon",
+    "district": "Balikpapan Kota",
+    "address": "Jl. Siaga RT.19 No.49 Kel. Damai"
+  },
+  {
+    "name": "LKSA Al-Mu'min",
+    "district": "Balikpapan Kota",
+    "address": "Jl. MT . Haryono Al - Makmur II RT.31 Kel.Damai"
+  },
+  {
+    "name": "Panti Asuhan Tabita",
+    "district": "Balikpapan Kota",
+    "address": "Jl. Komp . PU , Prapatan ."
+  },
+  {
+    "name": "LKSA Al-Ikhlas",
+    "district": "Balikpapan Kota",
+    "address": "JI. Siaga RT.17 No.17 Kel.Damai ( kantor )"
+  },
+  {
+    "name": "Panti Asuhan As-Salam",
+    "district": "Balikpapan Kota",
+    "address": "Jl. Jend . Sudirman RT 35 No 65 , Damai"
+  },
+  {
+    "name": "Panti Asuhan Al-Muhajirin",
+    "district": "Balikpapan Timur",
+    "address": "JI. Mulawarman RT.48 No.44 , Manggar"
+  },
+  {
+    "name": "Panti Asuhan Budi Amalia",
+    "district": "Balikpapan Timur",
+    "address": "TPA Manggar"
+  },
+  {
+    "name": "Panti Asuhan Syamsul Ma'arif",
+    "district": "Balikpapan Timur",
+    "address": "JI. Mulawarman RT.06 No. 10 , Manggar Baru"
+  },
+  {
+    "name": "LKSA Baitul Makmur",
+    "district": "Balikpapan Timur",
+    "address": "Jl . Baitul Makmur Blk . H - C No.RT.29 , Manggar , 76116"
+  },
+  {
+    "name": "LKSA Sumaryati Taylor",
+    "district": "Balikpapan Timur",
+    "address": "JI. Mulawarman Gg . Selili No.60 RT . 41 , Manggar Baru , 76116"
+  },
+  {
+    "name": "Panti Asuhan Amanah Ummat",
+    "district": "Balikpapan Barat",
+    "address": "JI. Sepaku , RT.17 / RW.No.8 , Baru Tengah"
+  }
+]
