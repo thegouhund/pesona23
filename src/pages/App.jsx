@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import '../App.css'
+import LatarBelakang from "../components/LatarBelakang.jsx";
+import Tujuan from "../components/Tujuan.jsx";
+import BentukKegiatan from "../components/BentukKegiatan.jsx";
+
+import "../App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <p className='text-red-600'>damwkmdaw</p>
+      <LatarBelakang />
+      <Tujuan />
+      <BentukKegiatan />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
