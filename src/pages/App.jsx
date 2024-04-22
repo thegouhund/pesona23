@@ -3,13 +3,17 @@ import Tujuan from "../components/Tujuan.jsx";
 import BentukKegiatan from "../components/BentukKegiatan.jsx";
 
 import "../App.css";
+import Navbar from "../components/Navbar.jsx";
 
 function App() {
   return (
     <>
-      <LatarBelakang />
-      <Tujuan />
-      <BentukKegiatan />
+      <Navbar />
+      <div className="max-w-4xl mx-auto">
+        <LatarBelakang />
+        <Tujuan />
+        <BentukKegiatan />
+      </div>
     </>
   );
 }
