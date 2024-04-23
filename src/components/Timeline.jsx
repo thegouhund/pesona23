@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./Title";
 
 const Timeline = () => {
   return (
@@ -16,15 +17,15 @@ const Timeline = () => {
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-5xl text-center">
+          <h1 class="mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl text-center">
             Timeline Acara
           </h1>
           <div class="flex flex-col items-center pt-10">
-            <ol class="relative border-s-2 border-gray-200 dark:border-gray-700 ">
+            <ol class="relative border-s-2 border-gray-200 ">
               <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3 mt-1 -start-9">
                   <svg
-                    class="w-5 h-4 text-gray-200 dark:text-blue-300"
+                    class="w-5 h-4 text-gray-200 "
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -33,15 +34,15 @@ const Timeline = () => {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </div>
-                <time class="mb-1 text-md text-2xl font-semibold text-left leading-none text-white dark:text-gray-700">
+                <time class="mb-1 text-md text-2xl font-semibold text-left leading-none text-white ">
                   Sabtu, 27 April 2024
                 </time>
-                <h3 class=" font-normal text-gray-100 dark:text-white">
+                <h3 class=" font-normal text-gray-100">
                   Kunjungan ke Panti Asuhan
                 </h3>
                 <a
                   href="#"
-                  class="inline-flex items-center mt-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  class="inline-flex items-center mt-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
                 >
                   List Panti Asuhan{" "}
                   <svg
@@ -64,7 +65,7 @@ const Timeline = () => {
               <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3  mt-1 -start-9">
                   <svg
-                    class="w-5 h-4 text-gray-200 dark:text-blue-300"
+                    class="w-5 h-4 text-gray-200"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -73,15 +74,15 @@ const Timeline = () => {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </div>
-                <time class="mb-1 text-md text-2xl font-semibold leading-none text-white dark:text-gray-700">
+                <time class="mb-1 text-md text-2xl font-semibold leading-none text-white ">
                   Minggu, 28 April 2024
                 </time>
-                <h3 class=" font-normal text-gray-100 dark:text-white">
+                <h3 class=" font-normal text-gray-100 ">
                   Pengabdian Masyarakat di Pantai
                 </h3>
                 <a
-                  href="#"
-                  class="inline-flex items-center mt-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  href="#"dark
+                  class="inline-flex items-center mt-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 :bg-gray-800"
                 >
                   List Pantai
                   <svg

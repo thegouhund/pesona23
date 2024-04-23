@@ -1,8 +1,13 @@
+import { useRef, useEffect } from "react";
+import Title from "./Title";
+
 export default function LatarBelakang() {
+
+
   return (
-    <div className="mx-4">
-      <h3 className="text-xl">Latar Belakang</h3>
-      <p className="my-4 text-justify">
+    <div className="mx-auto max-w-6xl">
+      <Title>Latar Belakang Acara</Title>
+      <p className="mx-4 my-4 text-justify text-xl p1">
         Mahasiswa Institut Teknologi Kalimantan angkatan 2023 adalah mahasiswa
         baru Institut Teknologi Kalimantan yang terdiri dari individu yang
         berasal dari berbagai daerah dan latar belakang yang berbeda juga. Dalam
@@ -16,7 +21,7 @@ export default function LatarBelakang() {
         menjadi agen perubahan yang positif di lingkungan kampus.
       </p>
 
-      <p className="my-4 text-justify">
+      <p className="mx-4 my-4 text-justify text-xl">
         Keberagaman latar belakang, membuat mahasiswa Institut Teknologi
         Kalimantan 2023 belum memiliki kesempatan untuk saling mengenal satu
         sama lain secara mendalam. Dalam upaya mempererat hubungan
@@ -28,7 +33,7 @@ export default function LatarBelakang() {
         lain.
       </p>
 
-      <p className="my-4 text-justify">
+      <p className="mx-4 my-4 text-justify text-xl">
         Untuk mewujudkan hal itu, maka kami mahasiswa Institut Teknologi
         Kalimantan Angkatan 2023 melahirkan “PESONA.” Kegiatan "PESONA"
         merupakan singkatan dari Pengabdian Mahasiswa untuk Edukasi, Sosialisasi
