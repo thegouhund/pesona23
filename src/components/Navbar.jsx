@@ -1,8 +1,30 @@
 import navbarIcons from "../assets/navbarIcons.png";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  // Function to handle scroll event
+  const handleScroll = () => {
+    const currentPosition = window.pageYOffset;
+    setScrollPosition(currentPosition);
+  };
+
+  // Add event listener when component mounts
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Conditionally apply blur class based on scroll position
+  const blurClass = scrollPosition > 0 ? " backdrop-blur-sm" : "";
+
   return (
-    <nav class="border-gray-200 bg-blue-600 ">
+    <nav class={`border-gray-200 fixed w-full z-50 ${blurClass}`}>
       <div class="flex flex-wrap items-center justify-between mx-8 p-4 ">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={navbarIcons} class="w-64" alt="Flowbite Logo" />
