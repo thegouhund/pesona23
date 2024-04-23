@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className={`border-gray-500 fixed w-full z-50 ${blurClass} `}>
       <div className="flex flex-wrap items-center justify-between mx-8 p-4 ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={navbarIcons} className="w-64" />
+          <img src={navbarIcons} className="w-64 max-[980px]:hidden" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             PESONA 23
           </span>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-solid-bg"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 "
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden bg-gray-200/30 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-white dark:hover:bg-gray-700 "
           aria-controls="navbar-solid-bg"
           aria-expanded="false"
         >
@@ -64,7 +64,7 @@ const Navbar = () => {
                 duration={500}
                 spy={true}
                 offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 text-white"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 text-white"
                 aria-current="page"
               >
                 Latar Belakang
@@ -77,7 +77,7 @@ const Navbar = () => {
                 duration={500}
                 spy={true}
                 offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 text-white"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 text-white"
               >
                 Tujuan
               </Link>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 duration={500}
                 spy={true}
                 offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 text-white"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 text-white"
               >
                 Timeline
               </Link>
@@ -101,7 +101,7 @@ const Navbar = () => {
                 duration={500}
                 spy={true}
                 offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 text-white"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 text-white"
               >
                 Daftar Kunjungan
               </Link>
