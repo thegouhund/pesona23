@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="bg-white">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class=" md:mb-0">
+        <div class="md:mb-0">
           <img src={pesonaLogo} alt="logo" width="80px" class="" />
         </div>
         <div class="md:flex md:justify-between">

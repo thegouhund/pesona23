@@ -14,7 +14,7 @@ import Navbar from "../components/Navbar.jsx";
 function App() {
   const { height, width } = useWindowDimensions();
   return (
-    <>
+    <main className="">
       <Navbar />
       <Jumbotron />
       <LatarBelakang />
@@ -22,7 +22,7 @@ function App() {
       <Timeline />
       {width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
       <Footer />
-    </>
+    </main>
   );
 }
 

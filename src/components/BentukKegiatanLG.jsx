@@ -1,14 +1,15 @@
 import pantiImg from "../assets/panti.jpeg";
 import pantiData from "../api/panti.json";
 import pantaiData from "../api/pantai.json";
+import Title from "./Title";
 
 const BentukKegiatanLG = () => {
   return (
     <>
-      <div class="flex justify-center  m-20">
-        <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
-          Daftar LKSA
-        </h1>
+      <div id="kunjungan" class="flex justify-center  m-20">
+        <Title>
+          Daftar Panti Asuhan
+        </Title>
       </div>
 
       <div class="flex justify-center flex-wrap ">

@@ -2,14 +2,12 @@ import pantiImg from "../assets/panti.jpeg";
 import pantiData from "../api/panti.json";
 import pantaiData from "../api/pantai.json";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
+import Title from "./Title";
 
 const BentukKegiatan = () => {
   return (
     <>
-      <h3 className="text-2xl my-8 text-center">
-        Daftar Panti Asuhan yang Kami Kunjungi
-      </h3>
-
+      <Title>Daftar Panti Asuhan</Title>
       <div className="overflow-auto mx-4 h-[500px] p-4 border border-gray-500 rounded">
         <div className="flex flex-col justify-center gap-4 ">
           {pantiData.map((panti) => {
@@ -31,9 +29,7 @@ const BentukKegiatan = () => {
         </div>
       </div>
 
-      <h3 className="text-2xl my-8 text-center">
-        Daftar Pantai yang Kami Kunjungi
-      </h3>
+      <Title>Daftar Pantai</Title>
 
       <div className="flex flex-col justify-center gap-4 mx-4 ">
         {pantaiData.map((pantai) => {

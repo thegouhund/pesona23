@@ -6,7 +6,7 @@ import Title from "./Title";
 const Tujuan = () => {
 	return (
 		<>
-			<div class="flex justify-center  m-20">
+			<div id="tujuan" class="flex justify-center  m-20">
 				<h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
 					Tujuan Acara
 				</h1>
