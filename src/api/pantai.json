@@ -1,14 +1,15 @@
 [
   {
-    "name": "Pantai Smacly",
+    "name": "Pantai Seraya",
     "district": "Balikpapan Timur",
-    "address": "Jl. Sosial, Lamaru",
-    "map": "https://maps.app.goo.gl/XSVEPYtFHGJXKQzu9"
+    "address": "Gang Perjuangan No.RT.28, Sepinggan, Kecamatan Balikpapan Selatan,",
+    "img": "https://i.ibb.co/3WpYSh0/2022-05-22.jpg",
+    "map": "https://maps.app.goo.gl/2jijtmPM9fQBszcW7"
   },
   {
-    "name": "Pantai SPN",
-    "district": "Balikpapan Selatan",
-    "address": "Jl. Jenderal Sudirman, Gn. Bahagia",
-    "map": "https://maps.app.goo.gl/LmEpvkZuY8KavNWR7"
+    "name": "Pantai Mulawarman",
+    "district": "",
+    "address": "",
+    "map": ""
   }
 ]
