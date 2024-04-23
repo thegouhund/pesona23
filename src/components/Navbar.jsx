@@ -22,12 +22,12 @@ const Navbar = () => {
     scrollPosition > 0 ? " backdrop-blur-sm bg-gray-400 bg-opacity-40" : "";
 
   return (
-    <nav class={`border-gray-200 fixed w-full z-50 ${blurClass} `}>
+    <nav class={`border-gray-500 fixed w-full z-50 ${blurClass} `}>
       <div class="flex flex-wrap items-center justify-between mx-8 p-4 ">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={navbarIcons} class="w-64" alt="Flowbite Logo" />
+          <img src={navbarIcons} class="w-64" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Pesona <sup>23</sup>
+            Pesona 23
           </span>
         </a>
         <button
@@ -59,10 +59,10 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent "
                 aria-current="page"
               >
-                Home
+                Latar Belakang
               </a>
             </li>
             <li>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 href="#"
                 class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Services
+                Tujuan
               </a>
             </li>
             <li>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 href="#"
                 class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Pricing
+                Timeline
               </a>
             </li>
             <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 href="#"
                 class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Contact
+                Daftar Kunjungan
               </a>
             </li>
           </ul>

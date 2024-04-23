@@ -1,6 +1,3 @@
-import React from "react";
-import Title from "./Title";
-
 const Timeline = () => {
   return (
     <>
@@ -17,7 +14,7 @@ const Timeline = () => {
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          <h1 class="mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl text-center">
+          <h1 class="mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl text-center text-white">
             Timeline Acara
           </h1>
           <div class="flex flex-col items-center pt-10">
@@ -81,7 +78,8 @@ const Timeline = () => {
                   Pengabdian Masyarakat di Pantai
                 </h3>
                 <a
-                  href="#"dark
+                  href="#"
+                  dark
                   class="inline-flex items-center mt-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 :bg-gray-800"
                 >
                   List Pantai

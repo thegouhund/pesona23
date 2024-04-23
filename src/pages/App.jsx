@@ -5,6 +5,7 @@ import BentukKegiatanLG from "../components/BentukKegiatanLG.jsx";
 import Footer from "../components/Footer.jsx";
 import Timeline from "../components/Timeline.jsx";
 import Jumbotron from "../components/Jumbotron.jsx";
+
 import { useWindowDimensions } from "../Utils.jsx";
 
 import "../App.css";
@@ -16,12 +17,10 @@ function App() {
     <>
       <Navbar />
       <Jumbotron />
-      <div className="">
-        <LatarBelakang />
-        <Tujuan />
-        <Timeline></Timeline>
-        {width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
-      </div>
+      <LatarBelakang />
+      <Tujuan />
+      <Timeline />
+      {width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
       <Footer />
     </>
   );
