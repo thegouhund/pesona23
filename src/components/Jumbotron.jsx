@@ -6,7 +6,7 @@ const Jumbotron = () => {
       id="jumbotron"
       className="bg-cover bg-no-repeat bg-[url('src/assets/jumbo_img.jpeg')] h-screen"
     >
-      <div className="mx-auto text-center  py-24">
+      <div className="mx-auto text-center py-24 drop-shadow-2xl">
         <h1 className="mb-4 mt-64 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           PESONA 23
         </h1>
