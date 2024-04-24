@@ -30,10 +30,12 @@ const Navbar = () => {
   // const mobileBackgroundColor = isMobileMenuOpen ? "text-gray-900" : "";
 
   return (
-    <nav className={`border-gray-500 fixed top-0 left-0 w-full z-50 ${blurClass}`}>
+    <nav
+      className={`border-gray-500 fixed top-0 left-0 w-full z-50 ${blurClass}`}
+    >
       <div className="flex flex-wrap items-center justify-between mx-8 p-4">
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logoPesona} className="w-16 max-[980px]:hidden" alt="Logo" />
+          <img src={logoPesona} className="w-16 " alt="Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             PESONA 23
           </span>

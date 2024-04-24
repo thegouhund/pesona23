@@ -8,7 +8,9 @@ const BentukKegiatanLG = () => {
   return (
     <>
       <div id="kunjungan" class="flex justify-center  m-20">
-        <Title>Daftar Panti Asuhan</Title>
+        <h1 class="text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
+          Daftar Panti Asuhan
+        </h1>
       </div>
 
       <div class="flex justify-center flex-wrap ">
@@ -36,7 +38,7 @@ const BentukKegiatanLG = () => {
       </div>
 
       <div id="daftarpantai" class="flex justify-center  m-20">
-        <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
+        <h1 class="text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Daftar Pantai
         </h1>
       </div>
