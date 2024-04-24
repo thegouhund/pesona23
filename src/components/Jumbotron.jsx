@@ -10,33 +10,39 @@ const Jumbotron = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000);
+    }, 3000); // Change the interval duration here (in milliseconds)
+
     return () => {
-      if (interval) {
-        clearInterval(interval);
-      }
+      clearInterval(interval);
     };
-  }, [currentIndex]);
+  }, [currentIndex, images.length]);
 
   return (
-    <div
-      id="jumbotron"
-      style={{
-        backgroundImage: `url(${images[currentIndex]})`,
-        transitionDuration: "2s",
-      }}
-      className="bg-cover bg-no-repeat h-screen duration-500 drop-shadow-2xl"
-    >
-      <div className="mx-auto text-center py-24 ">
-        <h1 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] mb-4 mt-64 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-          PESONA 23
-        </h1>
-        <p className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] mb-2 font-semibold text-lg text-white lg:text-2xl sm:px-16 lg:px-48">
-          Pengabdian Mahasiswa Untuk Edukasi, Sosialisasi dan Aksi Nyata.
-        </p>
-        <p className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] text-md font-normal text-white lg:text-xl sm:px-16 lg:px-48">
-          27-28 April 2024
-        </p>
+    <div className="relative">
+      <div className="absolute inset-0 z-10 flex items-center justify-center text-center">
+        <div>
+          <h1 className="text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+            PESONA 23
+          </h1>
+          <p className="mt-4 font-semibold text-lg text-white lg:text-2xl">
+            Pengabdian Mahasiswa Untuk Edukasi, Sosialisasi dan Aksi Nyata.
+          </p>
+          <p className="mt-2 text-md font-normal text-white lg:text-xl">
+            27-28 April 2024
+          </p>
+        </div>
+      </div>
+      <div className="h-screen overflow-hidden">
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Slide ${index + 1}`}
+            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
       </div>
     </div>
   );

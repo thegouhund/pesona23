@@ -9,34 +9,14 @@ export default function LatarBelakang() {
   return (
     <div id="latarBelakang" className="mx-auto max-w-6xl">
       <img
-        src={rayImg}
-        alt="Fish"
-        className="absolute left-40 -bottom-80 h-40 max-md:hidden"
+        src={fishesImg}
+        alt=""
+        className="absolute bottom-0 left-0 h-16 w-16 -z-10"
       />
       <img
         src={fishesImg}
         alt=""
-        className="absolute right-32 -bottom-80 h-52"
-      />
-      <img
-        src={fishesImg}
-        alt=""
-        className="absolute left-32 -bottom-[800px] h-52 rotate-90"
-      />
-      <img
-        src={turtleImg}
-        alt=""
-        className="absolute right-20 -bottom-[800px] h-32"
-      />
-      <img
-        src={jellyfishImg}
-        alt=""
-        className="absolute left-20 -bottom-[500px] scale-x-[-1] h-32"
-      />
-      <img
-        src={jellyfishImg}
-        alt=""
-        className="absolute left-32 -bottom-[550px] scale-x-[-1] h-32"
+        className="absolute right-0 h-52 rotate-90 -z-10"
       />
       <div class="flex justify-center my-20 max-md:mx-8 z-50">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">

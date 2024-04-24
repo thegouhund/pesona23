@@ -35,7 +35,7 @@ const BentukKegiatanLG = () => {
         })}
       </div>
 
-      <div class="flex justify-center  m-20">
+      <div id="daftarpantai" class="flex justify-center  m-20">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Daftar Pantai
         </h1>

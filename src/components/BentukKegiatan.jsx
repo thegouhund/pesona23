@@ -7,7 +7,9 @@ import Title from "./Title";
 const BentukKegiatan = () => {
   return (
     <>
-      <Title>Daftar Panti Asuhan</Title>
+      <div id="kunjungan" class="flex justify-center  m-20">
+        <Title>Daftar Panti Asuhan</Title>
+      </div>
       <div className="overflow-auto mx-4 h-[500px] p-4 border border-gray-500 rounded">
         <div className="flex flex-col justify-center gap-4 ">
           {pantiData.map((panti) => {
@@ -31,7 +33,9 @@ const BentukKegiatan = () => {
         </div>
       </div>
 
-      <Title>Daftar Pantai</Title>
+      <div id="daftarpantai" class="flex justify-center  m-20">
+        <Title>Daftar Pantai</Title>
+      </div>
       <div className="flex flex-col justify-center gap-4 mx-4 ">
         {pantaiData.map((pantai) => {
           return (
