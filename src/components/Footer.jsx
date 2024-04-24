@@ -63,10 +63,10 @@ const Footer = () => {
       <footer className="mt-8 max-w-6xl mx-auto max-[1200px]:mx-8 flex justify-between max-md:flex-col max-md:justify-start max-md:gap-4">
         <div className="">
           <img src={pesonaLogo} alt="logo" width="80px" class="" />
-          <h1 id="footer-head" class="self-center text-2xl font-extrabold">
+          <h1 id="footer-head" class="self-center text-2xl font-extrabold text-[#145DA0]">
             PESONA 23
           </h1>
-          <p id="footer-head" class="text-xl font-semibold italic ">
+          <p id="footer-head" class="text-xl font-semibold italic text-[#145DA0]">
             Pengabdian Mahasiswa untuk Edukasi, Sosialisasi dan Aksi Nyata
           </p>
           <p class="text-lg font-normal ">Institut Teknologi Kalimantan</p>
