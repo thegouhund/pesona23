@@ -1,11 +1,44 @@
 import { useRef, useEffect } from "react";
 import Title from "./Title";
-import textImg from "../assets/latarbelakang.png";
+import rayImg from "../assets/ikan-pari.png";
+import fishesImg from "../assets/fishes.png";
+import turtleImg from "../assets/penyu.png";
+import jellyfishImg from "../assets/ubur.png";
 
 export default function LatarBelakang() {
   return (
     <div id="latarBelakang" className="mx-auto max-w-6xl">
-      <div class="flex justify-center my-20 max-md:mx-8">
+      <img
+        src={rayImg}
+        alt="Fish"
+        className="absolute left-40 -bottom-80 h-40 max-md:hidden"
+      />
+      <img
+        src={fishesImg}
+        alt=""
+        className="absolute right-32 -bottom-80 h-52"
+      />
+      <img
+        src={fishesImg}
+        alt=""
+        className="absolute left-32 -bottom-[800px] h-52 rotate-90"
+      />
+      <img
+        src={turtleImg}
+        alt=""
+        className="absolute right-20 -bottom-[800px] h-32"
+      />
+      <img
+        src={jellyfishImg}
+        alt=""
+        className="absolute left-20 -bottom-[500px] scale-x-[-1] h-32"
+      />
+      <img
+        src={jellyfishImg}
+        alt=""
+        className="absolute left-32 -bottom-[550px] scale-x-[-1] h-32"
+      />
+      <div class="flex justify-center my-20 max-md:mx-8 z-50">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Latar Belakang Acara
         </h1>
