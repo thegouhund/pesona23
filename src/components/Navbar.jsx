@@ -1,4 +1,4 @@
-import navbarIcons from "../assets/navbarIcons.png";
+import logoPesona from "../assets/logoPesona.png";
 import { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className={`border-gray-500 fixed w-full z-50 ${blurClass} `}>
       <div className="flex flex-wrap items-center justify-between mx-8 p-4 ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={navbarIcons} className="w-64 max-[980px]:hidden" />
+          <img src={logoPesona} className="w-20 max-[980px]:hidden" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             PESONA 23
           </span>

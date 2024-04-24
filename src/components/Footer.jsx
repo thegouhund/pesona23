@@ -1,4 +1,4 @@
-import pesonaLogo from "../assets/logo-pesona.png";
+import pesonaLogo from "../assets/logoPesona.png";
 
 const Footer = () => {
   // return (
