@@ -103,7 +103,7 @@ const Navbar = () => {
                 smooth
                 duration={500}
                 spy={true}
-                offset={-100}
+                offset={-300}
                 className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white"
               >
                 Timeline

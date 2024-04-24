@@ -23,14 +23,18 @@ const Timeline = () => {
         <img
           src={fishesImg}
           alt=""
-          className="absolute right-0 h-40 rotate-90"
+          className="absolute -top-[100px] max-[1100px]:right-0 right-[300px] max-[1100px]:h-40 max-[1100px]:hidden h-52 rotate-90"
         />
-
+        <img
+          src={fishesImg}
+          alt=""
+          className="absolute top-[200px] right-5 h-52 rotate-180 max-[1100px]:h-40"
+        />
 
         <img
           src={rayImg}
           alt=""
-          className="absolute top-5 left-10 h-32 md:h-48"
+          className="absolute top-5 left-[300px] max-[1100px]:left-0 h-32 md:h-48"
         />
         <img
           src={turtleImg}
