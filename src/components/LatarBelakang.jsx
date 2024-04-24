@@ -1,9 +1,5 @@
 import { useRef, useEffect } from "react";
-import Title from "./Title";
-import rayImg from "../assets/ikan-pari.png";
 import fishesImg from "../assets/fishes.png";
-import turtleImg from "../assets/penyu.png";
-import jellyfishImg from "../assets/ubur.png";
 
 export default function LatarBelakang() {
   return (
