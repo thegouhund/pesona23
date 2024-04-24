@@ -1,16 +1,16 @@
 [
-  {
-    "name": "Pantai Seraya",
-    "district": "Balikpapan Timur",
-    "address": "Gang Perjuangan No.RT.28, Sepinggan, Kecamatan Balikpapan Selatan,",
-    "img": "https://i.ibb.co/3WpYSh0/2022-05-22.jpg",
-    "map": "https://maps.app.goo.gl/2jijtmPM9fQBszcW7"
-  },
-  {
-    "name": "Pantai Mulawarman",
-    "district": "",
-    "address": "",
-    "img": "https://i.ibb.co/pr79T7C/Screen-Shot-2024-04-24-at-01-32-57.png",
-    "map": "https://maps.app.goo.gl/np7ZTLePQvBAk8wV7"
-  }
+	{
+		"name": "Pantai Seraya",
+		"district": "Balikpapan Selatan",
+		"address": "Gang Perjuangan No.RT.28, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76115",
+		"img": "https://i.ibb.co/3WpYSh0/2022-05-22.jpg",
+		"map": "https://maps.app.goo.gl/2jijtmPM9fQBszcW7"
+	},
+	{
+		"name": "Pantai Mulawarman",
+		"district": "Balikpapan Selatan",
+		"address": "Jl. Mulawarman No.2, RT.22, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur",
+		"img": "https://i.ibb.co/pr79T7C/Screen-Shot-2024-04-24-at-01-32-57.png",
+		"map": "https://maps.app.goo.gl/np7ZTLePQvBAk8wV7"
+	}
 ]
