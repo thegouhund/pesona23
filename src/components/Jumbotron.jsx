@@ -38,7 +38,7 @@ const Jumbotron = () => {
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
+            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 brightness-50 object-cover ${
               index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
           />

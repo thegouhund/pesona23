@@ -41,13 +41,13 @@ const BentukKegiatanLG = () => {
         </h1>
       </div>
 
-      <div class="flex justify-center flex-wrap gap-10 ">
+      <div class="flex justify-center flex-wrap gap-10 mb-52">
         {pantaiData.map((pantai) => {
           return (
             <a
               href={pantai.map}
               target="_blank"
-              class="max-w-sm overflow-hidden rounded-lg p-5 mb-52 shadow-lg cursor-pointer hover:underline"
+              class="max-w-sm overflow-hidden rounded-lg p-5  shadow-lg cursor-pointer hover:underline"
             >
               <img
                 class="w-full aspect-square rounded-lg"

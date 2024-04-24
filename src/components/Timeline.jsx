@@ -2,7 +2,9 @@ import navbarIcons from "../assets/navbarIcons.png";
 import { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import fishesImg from "../assets/fishes.png";
-
+import rayImg from "../assets/ikan-pari.png";
+import turtleImg from "../assets/penyu.png";
+import jellyfishImg from "../assets/ubur.png";
 
 const Timeline = () => {
   return (
@@ -14,11 +16,26 @@ const Timeline = () => {
           d="M0,288L48,266.7C96,245,192,203,288,186.7C384,171,480,181,576,170.7C672,160,768,128,864,128C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
-      <section id="timeline" class="bg-gradient-to-b from-[#75b8fa] to-[#0D839E] to-90% ">
-      <img
+      <section
+        id="timeline"
+        class="bg-gradient-to-b from-[#75b8fa] to-[#0D839E] to-90% relative"
+      >
+        <img
           src={fishesImg}
           alt=""
-          className="absolute right-0 h-52 rotate-90"
+          className="absolute right-0 h-40 rotate-90"
+        />
+
+
+        <img
+          src={rayImg}
+          alt=""
+          className="absolute top-5 left-10 h-32 md:h-48"
+        />
+        <img
+          src={turtleImg}
+          alt=""
+          className="absolute top-80 left-10 h-20 scale-x-[-1]"
         />
         <div
           class="mx-auto max-w-screen-xl "
@@ -49,14 +66,14 @@ const Timeline = () => {
                   Kunjungan ke Panti Asuhan
                 </h3>
                 <Link
-                to="kunjungan"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-100}
-                className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
-              >
-                List Panti Asuhan
+                  to="kunjungan"
+                  smooth
+                  duration={500}
+                  spy={true}
+                  offset={-100}
+                  className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
+                >
+                  List Panti Asuhan
                   <svg
                     class="w-3 h-3 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -72,7 +89,7 @@ const Timeline = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-              </Link>
+                </Link>
               </li>
               <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3  mt-1 -start-9">
@@ -93,14 +110,14 @@ const Timeline = () => {
                   Pengabdian Masyarakat di Pantai
                 </h3>
                 <Link
-                to="daftarpantai"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-100}
-                className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
-              >
-                Daftar Pantai
+                  to="daftarpantai"
+                  smooth
+                  duration={500}
+                  spy={true}
+                  offset={-100}
+                  className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
+                >
+                  Daftar Pantai
                   <svg
                     class="w-3 h-3 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -116,7 +133,7 @@ const Timeline = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-              </Link>
+                </Link>
               </li>
             </ol>
           </div>
