@@ -50,9 +50,9 @@ const Footer = () => {
   //     </div>
   //     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
   //     <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 pb-6">
-  //       ©{" "}
+  //       ©
   //       <a href="#" class="hover:underline">
-  //         Pesona{" "}
+  //         Pesona
   //       </a>
   //       2023 | Institut Teknologi Kalimantan | Angkatan 2023
   //     </span>
@@ -60,14 +60,14 @@ const Footer = () => {
   // );
   return (
     <>
-      <footer className="mt-8 max-w-6xl mx-auto flex justify-between max-md:flex-col max-md:justify-start max-md:gap-4">
-        <div className="p-4 py-6 lg:py-8">
+      <footer className="mt-8 max-w-6xl mx-auto max-[1200px]:mx-8 flex justify-between max-md:flex-col max-md:justify-start max-md:gap-4">
+        <div className="">
           <img src={pesonaLogo} alt="logo" width="80px" class="" />
           <h1 id="footer-head" class="self-center text-2xl font-extrabold">
             PESONA 23
           </h1>
           <p id="footer-head" class="text-xl font-semibold italic ">
-            Pengabdian Mahasiswa untuk Edukasi, Sosialisasi dan Aksi Nyata{" "}
+            Pengabdian Mahasiswa untuk Edukasi, Sosialisasi dan Aksi Nyata
           </p>
           <p class="text-lg font-normal ">Institut Teknologi Kalimantan</p>
           <p class="text-md font-normal ">Angkatan 2023</p>
@@ -92,9 +92,9 @@ const Footer = () => {
       </footer>
       <hr class="my-6  sm:mx-auto border-gray-200 lg:my-8" />
       <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 pb-6">
-        ©{" "}
+        ©
         <a href="#" class="hover:underline">
-          Pesona{" "}
+          Pesona
         </a>
         2023 | Institut Teknologi Kalimantan | Angkatan 2023
       </span>
