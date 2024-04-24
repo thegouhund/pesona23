@@ -1,6 +1,8 @@
 import navbarIcons from "../assets/navbarIcons.png";
 import { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import fishesImg from "../assets/fishes.png";
+
 
 const Timeline = () => {
   return (
@@ -13,6 +15,11 @@ const Timeline = () => {
         ></path>
       </svg>
       <section id="timeline" class="bg-gradient-to-b from-[#75b8fa] to-[#0D839E] to-90% ">
+      <img
+          src={fishesImg}
+          alt=""
+          className="absolute right-0 h-52 rotate-90"
+        />
         <div
           class="mx-auto max-w-screen-xl "
           data-aos="zoom-in"
