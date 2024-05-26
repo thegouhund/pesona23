@@ -15,12 +15,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="sop"
           element={
-            <PdfViewer file={sopPdf} title="Standard Operational Procedure" />
+            <PdfViewer file="https://drive.google.com/file/d/153_4QTXOY_qfGKHgG_r-4qAN_1e65Kb6/preview" title="Standard Operational Procedure" />
           }
         />
         <Route
           path="tatib"
-          element={<PdfViewer file={tatibPdf} title="Tata Tertib" />}
+          element={<PdfViewer file="https://drive.google.com/file/d/1tZ_rAD6HkI7_2ggDjv3GQABYAWvFdEAO/preview" title="Tata Tertib" />}
         />
       </Routes>
     </BrowserRouter>
