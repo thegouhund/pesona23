@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="sop" element={<PdfViewer file="sop.pdf" title="Standard Operational Procedure"/>} />
         <Route path="tatib" element={<PdfViewer file="tatib.pdf" title="Tata Tertib"/>} />
       </Routes>
-    <Footer />
     </BrowserRouter>
+    <Footer />
   </React.StrictMode>,
 )

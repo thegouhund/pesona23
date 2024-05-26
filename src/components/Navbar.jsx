@@ -43,7 +43,7 @@ console.log("issop " + isSOP);
         <button
           onClick={toggleMobileMenu}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden bg-gray-200/30 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-dark dark:hover:bg-gray-700"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg min-[850px]:hidden bg-gray-200/30 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-dark dark:hover:bg-gray-700"
           aria-controls="navbar-solid-bg"
           aria-expanded={isMobileMenuOpen ? "true" : "false"}
         >
@@ -67,7 +67,7 @@ console.log("issop " + isSOP);
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
+          } w-full min-[850px]:block min-[850px]:w-auto`}
           id="navbar-solid-bg"
         >
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-500 hover:text-blue-400 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">

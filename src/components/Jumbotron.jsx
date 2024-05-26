@@ -29,7 +29,7 @@ const Jumbotron = () => {
   return (
     <div className="relative">
       <div className="absolute inset-0 z-10 flex items-center justify-center text-center">
-        <div className=" mx-4">
+        <div>
           <h1 className="text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             PESONA 23
           </h1>

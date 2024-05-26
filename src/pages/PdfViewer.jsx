@@ -13,7 +13,7 @@ const PdfViewer = ({file, title}) => {
           <iframe
             className="w-screen mx-auto p-16"
             src={`/${file}`}
-            height={800}
+            height={1500}
           ></iframe>
         </center>
       </main>
