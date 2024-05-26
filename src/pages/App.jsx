@@ -23,7 +23,6 @@ function App() {
 			<Timeline />
 			{width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
 			<Wave />
-			<Footer />
 		</main>
 	);
 }

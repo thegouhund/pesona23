@@ -1,11 +1,9 @@
 import logoPesona from "../assets/logoPesona.png";
 import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = (isSOP) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const handleScroll = () => {
     const currentPosition = window.pageYOffset;
     setScrollPosition(currentPosition);
@@ -23,15 +21,17 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const blurClass =
-    scrollPosition > 0 ? "backdrop-blur-sm bg-gray-400 bg-opacity-40" : "";
-
-  // Set background color to black when mobile menu is open
-  // const mobileBackgroundColor = isMobileMenuOpen ? "text-gray-900" : "";
-
+  const blurClass = "backdrop-blur-sm bg-gray-400 bg-opacity-40";
+console.log("issop " + isSOP);
   return (
     <nav
-      className={`border-gray-500 fixed top-0 left-0 w-full z-50 ${blurClass}`}
+      className={`border-gray-500 fixed top-0 left-0 w-full z-50 ${
+        isSOP
+          ? blurClass
+          : scrollPosition > 0
+          ? blurClass
+          : ""
+      } duration-500`}
     >
       <div className="flex flex-wrap items-center justify-between mx-8 p-4">
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -43,7 +43,7 @@ const Navbar = () => {
         <button
           onClick={toggleMobileMenu}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden bg-gray-200/30 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-dark dark:hover:bg-gray-700"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg min-[850px]:hidden bg-gray-200/30 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-dark dark:hover:bg-gray-700"
           aria-controls="navbar-solid-bg"
           aria-expanded={isMobileMenuOpen ? "true" : "false"}
         >
@@ -67,62 +67,57 @@ const Navbar = () => {
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
+          } w-full min-[850px]:block min-[850px]:w-auto`}
           id="navbar-solid-bg"
         >
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-500 hover:text-blue-400 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
             <li>
-              <Link
-                onClick={toggleMobileMenu}
-                to="latarBelakang"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white"
-                aria-current="page"
+              <a
+                href="/#latarBelakang"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
               >
                 Latar Belakang
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                onClick={toggleMobileMenu}
-                to="tujuan"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white"
+              <a
+                href="/#tujuan"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
               >
                 Tujuan
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                onClick={toggleMobileMenu}
-                to="timeline"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-300}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white"
+              <a
+                href="/#timeline"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
               >
                 Timeline
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                onClick={toggleMobileMenu}
-                to="kunjungan"
-                smooth
-                duration={500}
-                spy={true}
-                offset={-100}
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white"
+              <a
+                href="/#kunjungan"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
               >
-                Daftar Kunjungan
-              </Link>
+                Kunjungan
+              </a>
+            </li>
+            <li>
+              <a
+                href="/sop"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
+              >
+                SOP
+              </a>
+            </li>
+            <li>
+              <a
+                href="/tatib"
+                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
+              >
+                Tata Tertib
+              </a>
             </li>
           </ul>
         </div>
