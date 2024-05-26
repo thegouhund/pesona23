@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 const PdfViewer = ({file, title}) => {
-  file = "https://github.com/thegouhund/pesona23/blob/main/src/assets/sop.pdf"
   return (
     <>
       <Navbar isSop={true} />
