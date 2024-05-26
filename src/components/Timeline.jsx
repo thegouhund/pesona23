@@ -18,7 +18,7 @@ const Timeline = () => {
 			</svg>
 			<section
 				id="timeline"
-				class="bg-gradient-to-b from-[#75b8fa] to-[#0D839E] to-90% relative"
+				class="bg-gradient-to-b from-[#75b8fa] to-[#0D839E] to-90% relative scroll-mt-72"
 			>
 				<img
 					src={fishesImg}

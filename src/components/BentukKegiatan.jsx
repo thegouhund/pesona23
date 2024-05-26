@@ -7,7 +7,7 @@ import Title from "./Title";
 const BentukKegiatan = () => {
   return (
     <>
-      <div id="kunjungan" class="flex justify-center mt-10">
+      <div id="kunjungan" class="flex justify-center mt-10 scroll-mt-40">
         <Title>Daftar Panti Asuhan</Title>
       </div>
       <div className="overflow-auto mx-4 h-[500px] p-4 border border-gray-500 rounded">

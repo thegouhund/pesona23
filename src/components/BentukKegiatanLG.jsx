@@ -7,7 +7,7 @@ import { BoxArrowUpRight } from "react-bootstrap-icons";
 const BentukKegiatanLG = () => {
   return (
     <>
-      <div id="kunjungan" class="flex justify-center  m-20">
+      <div id="kunjungan" class="flex justify-center scroll-mt-40 m-20">
         <h1 class="text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Daftar Panti Asuhan
         </h1>

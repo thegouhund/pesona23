@@ -18,8 +18,8 @@ const Tujuan = () => {
 				alt=""
 				className="absolute h-[400px] left-[0px]  top-[450px] max-[1100px]:right- right-[300px] max-[1100px]:h-40 max-[1500px]:hidden "
 			/>
-			<div id="tujuan" class="flex justify-center  m-20">
-				<h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
+			<div id="tujuan" class="flex justify-center scroll-mt-40 m-20">
+				<h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center scroll-mt-80">
 					Tujuan Acara
 				</h1>
 			</div>
