@@ -4,8 +4,8 @@ import App from "./pages/App.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
 import PdfViewer from "./pages/PdfViewer.jsx";
-import sopPdf from "../public/sop.pdf";
-import tatibPdf from "../public/tatib.pdf";
+import sopPdf from "/sop.pdf";
+import tatibPdf from "/tatib.pdf";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
