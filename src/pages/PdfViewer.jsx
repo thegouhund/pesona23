@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 const PdfViewer = ({file, title}) => {
+  file = "https://filebin.net/i7dpljfryt1z686v/sop.pdf"
   return (
     <>
       <Navbar isSop={true} />
