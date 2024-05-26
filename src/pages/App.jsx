@@ -10,20 +10,22 @@ import { useWindowDimensions } from "../Utils.jsx";
 
 import "../App.css";
 import Navbar from "../components/Navbar.jsx";
+import Wave from "../components/wave.jsx";
 
 function App() {
-  const { height, width } = useWindowDimensions();
-  return (
-    <main className="">
-      <Navbar />
-      <Jumbotron />
-      <LatarBelakang />
-      <Tujuan />
-      <Timeline />
-      {width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
-      <Footer />
-    </main>
-  );
+	const { height, width } = useWindowDimensions();
+	return (
+		<main className="">
+			<Navbar />
+			<Jumbotron />
+			<LatarBelakang />
+			<Tujuan />
+			<Timeline />
+			{width > 768 ? <BentukKegiatanLG /> : <BentukKegiatan />}
+			<Wave />
+			<Footer />
+		</main>
+	);
 }
 
 export default App;

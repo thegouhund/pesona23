@@ -1,14 +1,20 @@
 import { useRef, useEffect } from "react";
-import fishesImg from "../assets/fishes.png";
+import birdsImg from "../assets/birds.png";
 
 export default function LatarBelakang() {
   return (
-    <div id="latarBelakang" className="mx-auto max-w-6xl">
+    <section className="relative">
+      <div id="latarBelakang" className="mx-auto max-w-6xl">
       <div class="flex justify-center my-20 max-md:mx-8 z-50">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Latar Belakang Acara
         </h1>
       </div>
+      <img
+          src={birdsImg}
+          alt=""
+          className="absolute h-[200px] left-[0px]  top-[0px] max-[1100px]:right- right-[300px] max-[1100px]:h-40 max-[1360px]:hidden h-52 "
+      />
       <p className="mx-8 my-4 text-justify text-xl p1">
         Mahasiswa Institut Teknologi Kalimantan angkatan 2023 adalah mahasiswa
         baru Institut Teknologi Kalimantan yang terdiri dari individu yang
@@ -49,5 +55,6 @@ export default function LatarBelakang() {
         dan kolaborasi antara program studi.
       </p>
     </div>
+    </section>
   );
 }
