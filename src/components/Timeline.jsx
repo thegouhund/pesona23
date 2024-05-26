@@ -46,7 +46,7 @@ const Timeline = () => {
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          <h1 class="mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl text-center text-white">
+          <h1 class="mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl text-center text-white -scroll-mt-72">
             Timeline Acara
           </h1>
           <div class="flex flex-col items-center pt-10">

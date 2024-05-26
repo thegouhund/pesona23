@@ -3,7 +3,7 @@ import fishesImg from "../assets/fishes.png";
 
 export default function LatarBelakang() {
   return (
-    <div id="latarBelakang" className="mx-auto max-w-6xl">
+    <div id="latarBelakang" className="mx-auto max-w-6xl scroll-mt-40">
       <div class="flex justify-center my-20 max-md:mx-8 z-50">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-default md:text-3xl lg:text-5xl text-center">
           Latar Belakang Acara
