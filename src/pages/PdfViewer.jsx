@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 const PdfViewer = ({file, title}) => {
+  console.log(file);
   return (
     <>
       <Navbar isSop={true} />
@@ -12,7 +13,7 @@ const PdfViewer = ({file, title}) => {
           </h1>
           <iframe
             className="w-screen mx-auto p-16"
-            src={`/${file}`}
+            src={file}
             height={1500}
           ></iframe>
         </center>
