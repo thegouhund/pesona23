@@ -1,7 +1,7 @@
 import logoPesona from "../assets/logoPesona.png";
 import { useState, useEffect } from "react";
 
-const Navbar = (isSOP) => {
+const Navbar = (isSOP=false) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const handleScroll = () => {
