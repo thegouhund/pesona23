@@ -77,7 +77,7 @@ const Timeline = () => {
 									offset={-100}
 									className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
 								>
-									List Panti Asuhan
+									Daftar Pantai
 									<svg
 										class="w-3 h-3 ms-2 rtl:rotate-180"
 										aria-hidden="true"
@@ -121,7 +121,7 @@ const Timeline = () => {
 									offset={-100}
 									className="inline-flex items-center mt-2 px-4 py-2 cursor-pointer text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100  focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
 								>
-									Daftar Pantai
+									List Panti
 									<svg
 										class="w-3 h-3 ms-2 rtl:rotate-180"
 										aria-hidden="true"
