@@ -37,7 +37,7 @@ const Jumbotron = () => {
             Pengabdian Mahasiswa Untuk Edukasi, Sosialisasi dan Aksi Nyata.
           </p>
           <p className="mt-2 text-md font-normal text-white lg:text-xl">
-            27-28 April 2024
+            31 Mei - 1 Juni 2024
           </p>
         </div>
       </div>
