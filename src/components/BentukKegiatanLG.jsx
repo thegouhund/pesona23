@@ -43,7 +43,7 @@ const BentukKegiatanLG = () => {
         </h1>
       </div>
 
-      <div class="flex justify-center flex-wrap gap-10 mb-52">
+      <div class="flex justify-center flex-wrap gap-10 mb-40">
         {pantaiData.map((pantai) => {
           return (
             <a
