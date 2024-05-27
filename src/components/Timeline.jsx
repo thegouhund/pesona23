@@ -42,7 +42,7 @@ const Timeline = () => {
 					className="absolute top-80 left-10 h-20 scale-x-[-1]"
 				/>
 				<div
-					class="mx-auto max-w-screen-xl "
+					class="mx-auto max-w-screen-xl -mt-3 "
 					data-aos="zoom-in"
 					data-aos-duration="2000"
 				>
@@ -64,13 +64,13 @@ const Timeline = () => {
 									</svg>
 								</div>
 								<time class="mb-1 text-md text-2xl font-semibold text-left leading-none text-white ">
-									Sabtu, 27 April 2024
+									Jumat, 31 Mei 2024
 								</time>
 								<h3 class=" font-normal text-gray-100">
-									Kunjungan ke Panti Asuhan
+									Pengabdian Masyarakat di Pantai
 								</h3>
 								<Link
-									to="kunjungan"
+									to="daftarpantai"
 									smooth
 									duration={500}
 									spy={true}
@@ -108,13 +108,13 @@ const Timeline = () => {
 									</svg>
 								</div>
 								<time class="mb-1 text-md text-2xl font-semibold leading-none text-white ">
-									Minggu, 28 April 2024
+									Sabtu, 1 Juni 2024
 								</time>
 								<h3 class=" font-normal text-gray-100 ">
-									Pengabdian Masyarakat di Pantai
+									Kunjungan ke Panti Asuhan
 								</h3>
 								<Link
-									to="daftarpantai"
+									to="kunjungan"
 									smooth
 									duration={500}
 									spy={true}
