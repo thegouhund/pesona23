@@ -1,7 +1,7 @@
 import logoPesona from "../assets/logoPesona.png";
 import { useState, useEffect } from "react";
 
-const Navbar = (isSOP=false) => {
+const Navbar = (isSOP = false) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const handleScroll = () => {
@@ -22,15 +22,11 @@ const Navbar = (isSOP=false) => {
   };
 
   const blurClass = "backdrop-blur-sm bg-gray-400 bg-opacity-40";
-console.log("issop " + isSOP);
+  console.log("issop " + isSOP);
   return (
     <nav
       className={`border-gray-500 fixed top-0 left-0 w-full z-50 ${
-        isSOP
-          ? blurClass
-          : scrollPosition > 0
-          ? blurClass
-          : ""
+        isSOP ? blurClass : scrollPosition > 0 ? blurClass : ""
       } duration-500`}
     >
       <div className="flex flex-wrap items-center justify-between mx-8 p-4">
@@ -105,18 +101,10 @@ console.log("issop " + isSOP);
             </li>
             <li>
               <a
-                href="/sop"
-                className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
-              >
-                SOP
-              </a>
-            </li>
-            <li>
-              <a
                 href="/tatib"
                 className="block py-2 px-3 md:p-0 cursor-pointer rounded md:hover:bg-transparent md:border-0 hover:text-blue-400 text-white duration-300"
               >
-                Tata Tertib
+                SOP & Tata Tertib
               </a>
             </li>
           </ul>
