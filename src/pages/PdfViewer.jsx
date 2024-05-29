@@ -35,7 +35,7 @@ const PdfViewer = ({ file, title }) => {
           </>
         ) : (
           <iframe
-            className="w-[1000px] mx-8 px-8 md:px-16 md:h-[1100px] md:block h-[300px] mb-8"
+            className="w-[1000px] mx-8 px-8 md:px-16 md:h-[1100px] md:block h-[300px] mb-8 max-[900px]:w-[768px]"
             src={`${file}`}
           ></iframe>
         )}
