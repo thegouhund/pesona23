@@ -17,7 +17,7 @@ const PdfViewer = ({ file, title }) => {
         {width < 768 ? (
           <>
             <div
-              className="h-[500px] w-[400px] box-border mb-8 overflow-hidden rounded-lg shadow-lg"
+              className="h-[500px] w-[400px] max-[440px]:w-[310px] bg-center box-border mb-8 overflow-hidden rounded-lg shadow-lg"
               style={{
                 backgroundImage: `url(${pdfImg})`,
                 backgroundSize: "cover",
@@ -28,15 +28,15 @@ const PdfViewer = ({ file, title }) => {
               href={file}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute top-[420px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center gap-2"
+              className="absolute top-[420px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded drop-shadow flex items-center gap-2"
             >
               <Download /> Download
             </a>
           </>
         ) : (
           <iframe
-            className="w-screen px-8 md:px-16 md:h-[1500px] md:block h-[750px]"
-            src={file}
+            className="w-[1000px] mx-8 px-8 md:px-16 md:h-[1100px] md:block h-[300px] mb-8"
+            src={`${file}`}
           ></iframe>
         )}
       </main>

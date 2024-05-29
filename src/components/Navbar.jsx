@@ -30,12 +30,12 @@ const Navbar = (isSOP = false) => {
       } duration-500`}
     >
       <div className="flex flex-wrap items-center justify-between mx-8 p-4">
-        <div className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logoPesona} className="w-16 " alt="Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             PESONA 23
           </span>
-        </div>
+        </a>
         <button
           onClick={toggleMobileMenu}
           type="button"
