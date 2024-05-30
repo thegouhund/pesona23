@@ -4,7 +4,7 @@ import App from "./pages/App.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
 import PdfViewer from "./pages/PdfViewer.jsx";
-import tatibPdf from "/tatib.pdf";
+import tatibPdf from "/tatibsop.pdf";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
